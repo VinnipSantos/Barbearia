@@ -1,0 +1,100 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.body {
+  background-color: #0f394b;
+  overflow-x: hidden;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+}
+.navbar {
+  padding: 20px;
+  display: flex;
+  justify-content: end;
+  background-color: rgb(29, 29, 29);
+  text-align: end;
+  font-size: 20px;
+}
+.navbar a {
+  padding: 20px;
+  margin: 5px;
+  color: #f2f2f2;
+  cursor: pointer;
+}
+.navbar a:hover {
+  background-color: #d92525;
+}
+
+.main {
+  margin: 70px;
+  width: 90vw;
+  height: 120vh;
+  background-color: #0a2531;
+  border-radius: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.card1 {
+    background-image: url(https://blog.oceane.com.br/wp-content/uploads/2024/02/old-money-haircut.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.card2 {
+    background-image: url(https://blog.oceane.com.br/wp-content/uploads/2024/02/buzzcut.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.card3 {
+    background-image: url(https://blog.oceane.com.br/wp-content/uploads/2024/02/cabelo-colorido.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.card4 {
+    background-image: url(https://blog.oceane.com.br/wp-content/uploads/2024/02/midfade.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.card5 {
+    background-image: url(https://blog.oceane.com.br/wp-content/uploads/2024/02/leonardo-dicaprio.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.card6 {
+    background-image: url(https://blog.oceane.com.br/wp-content/uploads/2024/02/mullet.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.card7 {
+    background-image: url(https://blog.oceane.com.br/wp-content/uploads/2024/02/undercut.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.card8 {
+    background-image: url(https://blog.oceane.com.br/wp-content/uploads/2024/02/lowfade-1.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.card1,.card2,.card3,.card4,.card5,.card6,.card7,.card8{
+    width: 350px;
+    height: 450px;
+    margin: 20px;
+    border-radius: 10px;
+    border: #f2f2f2 2px solid;
+    font-size: 20px;
+    justify-content: center;
+    display: flex;
+    color: #f2f2f2;
+    padding: 10px;
+}
+
